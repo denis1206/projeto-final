@@ -5,9 +5,9 @@ nav.nav{
 
 .nav.hamburguer{
     position: absolute;
+    padding: 1rem;
     top: 1.5rem;
     right: 1rem;
-    padding: 1rem;
     cursor: pointer;
 }
 
@@ -55,4 +55,32 @@ nav.nav{
     .nav.hamburguer{
         display: none;
     }
+}
+
+/* Header */
+header.header{
+    width: 100%;
+    height: 500px;
+    background: url('../img/ceu.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header.titulo,
+.header.texto{
+    color: #fff;
+}
+
+/* Destaques */
+.destaque{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.destaque h2{
+    margin: 1rem 0;
 }
